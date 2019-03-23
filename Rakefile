@@ -3,7 +3,7 @@ task :hello do
   puts "hello from Rake!"
 end
 
-des 'ouputs goodbye to the terminal'
+desc 'ouputs goodbye to the terminal'
 task :goodbye do
   puts "goodbye from Rake!"
 end
